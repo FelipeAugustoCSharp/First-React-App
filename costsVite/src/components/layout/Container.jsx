@@ -1,5 +1,5 @@
 
-import styles from './Container.module.css'
+import styles from '../styles/Container.module.css'
 function Container(props) {
   
   return (
