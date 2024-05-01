@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+#Remoção do arquivo db.json para nao subi-lo no github com dados de test
+db.json
