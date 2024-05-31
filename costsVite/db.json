@@ -1,5 +1,17 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "3b4d",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "budget": "3",
+      "name": "comprar crack",
+      "cost": 0,
+      "services": []
+    }
+  ],
   "category": [
     {
       "id": 1,
