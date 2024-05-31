@@ -1,17 +1,6 @@
 {
   "projects": [
     {
-      "id": "3b4d",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "budget": "3",
-      "name": "comprar crack",
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "b93c",
       "name": "vender pó",
       "budget": "150",
@@ -41,28 +30,6 @@
       },
       "name": "contratar fogueteiros",
       "budget": "59",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "d130",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "budget": "20",
-      "name": "pintar a boca",
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "294e",
-      "category": {
-        "id": "5",
-        "name": "Redes"
-      },
-      "budget": "555",
-      "name": "Drogas",
       "cost": 0,
       "services": []
     }
