@@ -33,6 +33,7 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
   }
 
   function handleCategory(e) {
+    console.log(e.target.value);
     setProject({
       ...project,
       category: {
