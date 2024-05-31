@@ -4,12 +4,14 @@ import Select from "../ci/Select";
 import SubmitButton from "../ci/SubmitButton";
 import styles from "../styles/ProjectForm.module.css";
 
+import ROUTING from "../../../environment/ConnectionJson";
+
 function ProjectForm({ handleSubmit, btnText, projectData }) {
   const [category, setCategory] = useState([]);
   const [project, setProject] = useState(projectData || {});
 
   useEffect(() => {
-    fetch("http://localhost:5000/category", {
+    fetch(`${ROUTING.localhost}/category`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

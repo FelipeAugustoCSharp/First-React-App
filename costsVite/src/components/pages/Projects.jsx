@@ -6,6 +6,7 @@ import LinkButton from "../ci/LinkButton"
 import ProjectCard from '../project/ProjectCard'
 import { useState, useEffect } from "react"
 import Loading from "../ci/Loading"
+import ROUTING from "../../../environment/ConnectionJson"
 
 
 function Projects() {
@@ -22,7 +23,7 @@ function Projects() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch('http://localhost:5000/projects',{
+      fetch(`${ROUTING.localhost}/projects`,{
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -38,7 +39,7 @@ function Projects() {
   }, [])
 
   function removeProject(id) {
-    fetch(`http://localhost:5000/projects/${id}`,{
+    fetch(`${ROUTING.localhost}/projects/${id}`,{
       
     method: 'DELETE',
     headers: {

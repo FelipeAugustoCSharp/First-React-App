@@ -11,6 +11,7 @@ import Contato from './components/pages/Contato';
 import Empresa from './components/pages/Empresa';
 import NewProject from './components/pages/NewProject';
 import Projects from './components/pages/Projects';
+import SingleProject from './components/pages/SingleProject';
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
 
   <Container customClass="min-height">      
     <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route exact path="/" element={<Home />}/>
         <Route path="/contato" element={<Contato />}/>
         <Route path="/empresa" element={<Empresa />}/>
         <Route path="/newproject" element={<NewProject />}/>
         <Route path="/projects" element={<Projects />}/>
+        <Route path="/projects/:id" element={<SingleProject />}/>
     </Routes>
   </Container>
 

@@ -1,38 +1,5 @@
 {
   "projects": [
-    {
-      "id": "b93c",
-      "name": "vender pó",
-      "budget": "150",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "60bf",
-      "name": "fogueteiros",
-      "budget": "50",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "dcd9",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "name": "contratar fogueteiros",
-      "budget": "59",
-      "cost": 0,
-      "services": []
-    }
   ],
   "category": [
     {
