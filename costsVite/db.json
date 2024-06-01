@@ -18,33 +18,8 @@
       },
       "name": "StarLink para o Rio Grande do Sul",
       "budget": "9520",
-      "cost": 3850,
-      "services": [
-        {
-          "name": "Ajudar ONG ",
-          "cost": "520",
-          "description": "Ajudar quem precisa",
-          "id": "1fe9f36e-ac2c-4cdd-b45c-310604ae3deb"
-        },
-        {
-          "cost": "300",
-          "name": "Comprar alimento para ONG's",
-          "description": "Ajuda ONG's",
-          "id": "86b0aa23-80fe-4f2b-b367-e4aac9831e9a"
-        },
-        {
-          "cost": "3002",
-          "name": "Comprar alimento para ONG's",
-          "description": "Ajuda ONG's",
-          "id": "66bdb3d8-d6f5-4152-a55f-fb05384b74f8"
-        },
-        {
-          "name": "test",
-          "cost": "28",
-          "description": "Ajudar quem precisa",
-          "id": "6f6e7dd5-c9e7-488a-ba89-2683861130c2"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": "2"
     },
     {
